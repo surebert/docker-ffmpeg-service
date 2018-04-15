@@ -19,10 +19,15 @@ Based off of jrottenberg/ffmpeg
 Curl Ex:
 
 > curl -F "file=@input.wav" 127.0.0.1:3000/mp3  > output.mp3
+
 > curl -F "file=@input.m4a" 127.0.0.1:3000/mp3  > output.mp3
+
 > curl -F "file=@input.mov" 127.0.0.1:3000/mp4  > output.mp4
+
 > curl -F "file=@input.mp4" 127.0.0.1:3000/mp4  > output.mp4
+
 > curl -F "file=@input.tiff" 127.0.0.1:3000/jpg  > output.jpg
+
 > curl -F "file=@input.png" 127.0.0.1:3000/jpg  > output.jpg
 
 ## Configuration and New Endpoints
