@@ -1,0 +1,25 @@
+{
+  "name": "node-ffmpeg-av",
+  "version": "1.0.0",
+  "description": "media conversion utilities",
+  "main": "index.js",
+  "author": {
+    "name": "Paul Visco",
+    "email": "paul.visco@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "busboy": "^0.2.14",
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "express-readme": "0.0.5",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "unique-filename": "^1.1.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.8.0"
+  }
+}
