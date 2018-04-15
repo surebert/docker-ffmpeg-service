@@ -1,8 +1,8 @@
-# ffmpeg web service
+# ffmpeg web service API
 
 An web service for converting audio/video files using Nodejs, Express and FFMPEG
 
-Based off of jrottenberg/ffmpeg
+Based off of jrottenberg/ffmpeg container
 
 ## Endpoints
 
